@@ -1,7 +1,25 @@
-## SnapATAC (under development)
-Single Nuclesus Analysis Package for ATAC-seq. 
+# Note (added by [Van1yu3]( https://github.com/Van1yu3/ ))
 
-Taken from branch: `e8bbb02d9b5ce97c9cc64d0138c636cdcf3295eb`, committed time: `Mar 4 10:01:51 2019`
+This branch is taken from SHA code: `e8bbb02d9b5ce97c9cc64d0138c636cdcf3295eb`. Committed time: `Mar 4 10:01:51 2019`.
+
+I extracted this branch since some functions would be updated in the next commit by the author, but some  papers utilized these old functions to obtain their results. I could successfully install this old version using a conda environment with R-3.5.3 and python 2.7.
+
+My installation step:
+
+```bash
+$ pip install snaptools
+```
+
+```R
+$ R
+devtools::install_github("Van1yu3/SnapATAC@version1")
+```
+
+The following is the original README content. 
+
+## SnapATAC (under development)
+
+Single Nuclesus Analysis Package for ATAC-seq. 
 
 ## Introduction
 SnapATAC is fast, accurate and unbiased method for analyzing single cell ATAC-seq datasets. Compared to previous methods, SnapATAC 1) overcomes limitation of reliance on open chromatin peaks defined by aggregate/bulk signal; 2) reveals novel cis-elements active in rare populations; 3) adjusts for differing sequencing depth between cells; 4) scales up to millions of cells.
