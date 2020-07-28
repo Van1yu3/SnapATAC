@@ -1,6 +1,8 @@
 ## SnapATAC (under development)
 Single Nuclesus Analysis Package for ATAC-seq. 
 
+Taken from branch: `e8bbb02d9b5ce97c9cc64d0138c636cdcf3295eb`, committed time: `Mar 4 10:01:51 2019`
+
 ## Introduction
 SnapATAC is fast, accurate and unbiased method for analyzing single cell ATAC-seq datasets. Compared to previous methods, SnapATAC 1) overcomes limitation of reliance on open chromatin peaks defined by aggregate/bulk signal; 2) reveals novel cis-elements active in rare populations; 3) adjusts for differing sequencing depth between cells; 4) scales up to millions of cells.
 
